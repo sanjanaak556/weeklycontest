@@ -10,7 +10,7 @@ function PrintStudentswithMap() {
   //Write your code here , just console.log
   pass=students.filter(student=>student["marks"]>=50)
   pass1=pass.map(name=>name)
-  console.log(pass1);
+  console.log(pass1); 
 
 }
 PrintStudentswithMap()
